@@ -1,0 +1,63 @@
+.music-container {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 700px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.music-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.mood-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.mood-btn {
+  background: linear-gradient(135deg, #4f8ef7, #8bc6ec);
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s;
+}
+
+.mood-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+}
+
+.mood-btn.active {
+  background: linear-gradient(135deg, #1e90ff, #4facfe);
+  box-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+}
+
+.recommendations {
+  margin-top: 25px;
+}
+
+.recommendations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendations li {
+  background: #e3f2fd;
+  margin: 10px auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+}
